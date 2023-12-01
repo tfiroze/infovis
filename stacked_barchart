@@ -1,0 +1,1082 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "axes": [
+    {
+      "aria": false,
+      "domain": false,
+      "grid": true,
+      "gridScale": "x",
+      "labels": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "orient": "left",
+      "scale": "y",
+      "tickCount": {
+        "signal": "ceil(height/40)"
+      },
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "grid": false,
+      "labelAlign": "right",
+      "labelAngle": 270,
+      "labelBaseline": "middle",
+      "orient": "bottom",
+      "scale": "x",
+      "title": "Decade",
+      "zindex": 0
+    },
+    {
+      "grid": false,
+      "labelOverlap": true,
+      "orient": "left",
+      "scale": "y",
+      "tickCount": {
+        "signal": "ceil(height/40)"
+      },
+      "title": "Average Track Popularity",
+      "zindex": 0
+    }
+  ],
+  "background": "white",
+  "data": [
+    {
+      "name": "param_15_store",
+      "values": []
+    },
+    {
+      "name": "source_0"
+    },
+    {
+      "name": "data_0",
+      "values": [
+        {
+          "average_track_popularity": 48.851987899740706,
+          "average_track_popularity_end": 176.77744297392894,
+          "average_track_popularity_start": 127.92545507418824,
+          "decade": 2010,
+          "playlist_genre": "pop"
+        },
+        {
+          "average_track_popularity": 38.16591928251121,
+          "average_track_popularity_end": 138.279206404251,
+          "average_track_popularity_start": 100.11328712173979,
+          "decade": 2000,
+          "playlist_genre": "pop"
+        },
+        {
+          "average_track_popularity": 47.205882352941174,
+          "average_track_popularity_end": 185.78330677980261,
+          "average_track_popularity_start": 138.57742442686146,
+          "decade": 2020,
+          "playlist_genre": "pop"
+        },
+        {
+          "average_track_popularity": 43.83870967741935,
+          "average_track_popularity_end": 165.03787951519806,
+          "average_track_popularity_start": 121.1991698377787,
+          "decade": 1990,
+          "playlist_genre": "pop"
+        },
+        {
+          "average_track_popularity": 43.3,
+          "average_track_popularity_end": 170.73731563648852,
+          "average_track_popularity_start": 127.43731563648852,
+          "decade": 1980,
+          "playlist_genre": "pop"
+        },
+        {
+          "average_track_popularity": 60.27777777777778,
+          "average_track_popularity_end": 193.10596696187426,
+          "average_track_popularity_start": 132.8281891840965,
+          "decade": 1970,
+          "playlist_genre": "pop"
+        },
+        {
+          "average_track_popularity": 80.0,
+          "average_track_popularity_end": 233.08170212765958,
+          "average_track_popularity_start": 153.08170212765958,
+          "decade": 1960,
+          "playlist_genre": "pop"
+        },
+        {
+          "average_track_popularity": 50.63522012578616,
+          "average_track_popularity_end": 90.0935534591195,
+          "average_track_popularity_start": 39.45833333333334,
+          "decade": 2020,
+          "playlist_genre": "rap"
+        },
+        {
+          "average_track_popularity": 45.22974636788968,
+          "average_track_popularity_end": 81.52276640935477,
+          "average_track_popularity_start": 36.29302004146509,
+          "decade": 2010,
+          "playlist_genre": "rap"
+        },
+        {
+          "average_track_popularity": 33.33748443337485,
+          "average_track_popularity_end": 70.75563038998234,
+          "average_track_popularity_start": 37.418145956607496,
+          "decade": 2000,
+          "playlist_genre": "rap"
+        },
+        {
+          "average_track_popularity": 40.98310291858679,
+          "average_track_popularity_end": 87.18275569636457,
+          "average_track_popularity_start": 46.19965277777778,
+          "decade": 1990,
+          "playlist_genre": "rap"
+        },
+        {
+          "average_track_popularity": 43.3728813559322,
+          "average_track_popularity_end": 90.47487432193455,
+          "average_track_popularity_start": 47.10199296600235,
+          "decade": 1980,
+          "playlist_genre": "rap"
+        },
+        {
+          "average_track_popularity": 39.333333333333336,
+          "average_track_popularity_end": 85.79540229885058,
+          "average_track_popularity_start": 46.46206896551724,
+          "decade": 1970,
+          "playlist_genre": "rap"
+        },
+        {
+          "average_track_popularity": 56.0,
+          "average_track_popularity_end": 105.36170212765958,
+          "average_track_popularity_start": 49.36170212765958,
+          "decade": 1960,
+          "playlist_genre": "rap"
+        },
+        {
+          "average_track_popularity": 47.10199296600234,
+          "average_track_popularity_end": 47.10199296600234,
+          "average_track_popularity_start": 0.0,
+          "decade": 1980,
+          "playlist_genre": "rock"
+        },
+        {
+          "average_track_popularity": 36.2930200414651,
+          "average_track_popularity_end": 36.2930200414651,
+          "average_track_popularity_start": 0.0,
+          "decade": 2010,
+          "playlist_genre": "rock"
+        },
+        {
+          "average_track_popularity": 46.19965277777778,
+          "average_track_popularity_end": 46.19965277777778,
+          "average_track_popularity_start": 0.0,
+          "decade": 1990,
+          "playlist_genre": "rock"
+        },
+        {
+          "average_track_popularity": 37.418145956607496,
+          "average_track_popularity_end": 37.418145956607496,
+          "average_track_popularity_start": 0.0,
+          "decade": 2000,
+          "playlist_genre": "rock"
+        },
+        {
+          "average_track_popularity": 46.46206896551724,
+          "average_track_popularity_end": 46.46206896551724,
+          "average_track_popularity_start": 0.0,
+          "decade": 1970,
+          "playlist_genre": "rock"
+        },
+        {
+          "average_track_popularity": 49.361702127659576,
+          "average_track_popularity_end": 49.361702127659576,
+          "average_track_popularity_start": 0.0,
+          "decade": 1960,
+          "playlist_genre": "rock"
+        },
+        {
+          "average_track_popularity": 39.458333333333336,
+          "average_track_popularity_end": 39.458333333333336,
+          "average_track_popularity_start": 0.0,
+          "decade": 2020,
+          "playlist_genre": "rock"
+        },
+        {
+          "average_track_popularity": 37.0,
+          "average_track_popularity_end": 37.0,
+          "average_track_popularity_start": 0.0,
+          "decade": 1950,
+          "playlist_genre": "rock"
+        },
+        {
+          "average_track_popularity": 49.346666666666664,
+          "average_track_popularity_end": 226.1241096405956,
+          "average_track_popularity_start": 176.77744297392894,
+          "decade": 2010,
+          "playlist_genre": "latin"
+        },
+        {
+          "average_track_popularity": 34.563876651982376,
+          "average_track_popularity_end": 172.84308305623338,
+          "average_track_popularity_start": 138.279206404251,
+          "decade": 2000,
+          "playlist_genre": "latin"
+        },
+        {
+          "average_track_popularity": 39.7515923566879,
+          "average_track_popularity_end": 204.78947187188595,
+          "average_track_popularity_start": 165.03787951519806,
+          "decade": 1990,
+          "playlist_genre": "latin"
+        },
+        {
+          "average_track_popularity": 50.19083969465649,
+          "average_track_popularity_end": 235.9741464744591,
+          "average_track_popularity_start": 185.78330677980261,
+          "decade": 2020,
+          "playlist_genre": "latin"
+        },
+        {
+          "average_track_popularity": 39.892857142857146,
+          "average_track_popularity_end": 210.63017277934566,
+          "average_track_popularity_start": 170.73731563648852,
+          "decade": 1980,
+          "playlist_genre": "latin"
+        },
+        {
+          "average_track_popularity": 63.25,
+          "average_track_popularity_end": 256.3559669618743,
+          "average_track_popularity_start": 193.1059669618743,
+          "decade": 1970,
+          "playlist_genre": "latin"
+        },
+        {
+          "average_track_popularity": 26.0,
+          "average_track_popularity_end": 259.0817021276596,
+          "average_track_popularity_start": 233.08170212765958,
+          "decade": 1960,
+          "playlist_genre": "latin"
+        },
+        {
+          "average_track_popularity": 48.483870967741936,
+          "average_track_popularity_end": 138.57742442686146,
+          "average_track_popularity_start": 90.09355345911952,
+          "decade": 2020,
+          "playlist_genre": "r&b"
+        },
+        {
+          "average_track_popularity": 46.402688664833484,
+          "average_track_popularity_end": 127.92545507418825,
+          "average_track_popularity_start": 81.52276640935477,
+          "decade": 2010,
+          "playlist_genre": "r&b"
+        },
+        {
+          "average_track_popularity": 29.35765673175745,
+          "average_track_popularity_end": 100.1132871217398,
+          "average_track_popularity_start": 70.75563038998234,
+          "decade": 2000,
+          "playlist_genre": "r&b"
+        },
+        {
+          "average_track_popularity": 34.01641414141414,
+          "average_track_popularity_end": 121.1991698377787,
+          "average_track_popularity_start": 87.18275569636455,
+          "decade": 1990,
+          "playlist_genre": "r&b"
+        },
+        {
+          "average_track_popularity": 36.96244131455399,
+          "average_track_popularity_end": 127.43731563648853,
+          "average_track_popularity_start": 90.47487432193455,
+          "decade": 1980,
+          "playlist_genre": "r&b"
+        },
+        {
+          "average_track_popularity": 47.032786885245905,
+          "average_track_popularity_end": 132.8281891840965,
+          "average_track_popularity_start": 85.79540229885058,
+          "decade": 1970,
+          "playlist_genre": "r&b"
+        },
+        {
+          "average_track_popularity": 47.72,
+          "average_track_popularity_end": 153.08170212765958,
+          "average_track_popularity_start": 105.36170212765958,
+          "decade": 1960,
+          "playlist_genre": "r&b"
+        },
+        {
+          "average_track_popularity": 59.0,
+          "average_track_popularity_end": 96.0,
+          "average_track_popularity_start": 37.0,
+          "decade": 1950,
+          "playlist_genre": "r&b"
+        },
+        {
+          "average_track_popularity": 35.051760563380284,
+          "average_track_popularity_end": 261.1758702039759,
+          "average_track_popularity_start": 226.12410964059558,
+          "decade": 2010,
+          "playlist_genre": "edm"
+        },
+        {
+          "average_track_popularity": 40.31521739130435,
+          "average_track_popularity_end": 276.28936386576345,
+          "average_track_popularity_start": 235.9741464744591,
+          "decade": 2020,
+          "playlist_genre": "edm"
+        },
+        {
+          "average_track_popularity": 20.69375,
+          "average_track_popularity_end": 193.53683305623338,
+          "average_track_popularity_start": 172.84308305623338,
+          "decade": 2000,
+          "playlist_genre": "edm"
+        },
+        {
+          "average_track_popularity": 39.3,
+          "average_track_popularity_end": 244.08947187188596,
+          "average_track_popularity_start": 204.78947187188595,
+          "decade": 1990,
+          "playlist_genre": "edm"
+        },
+        {
+          "average_track_popularity": 37.4,
+          "average_track_popularity_end": 248.03017277934566,
+          "average_track_popularity_start": 210.63017277934566,
+          "decade": 1980,
+          "playlist_genre": "edm"
+        },
+        {
+          "average_track_popularity": 24.0,
+          "average_track_popularity_end": 280.3559669618743,
+          "average_track_popularity_start": 256.3559669618743,
+          "decade": 1970,
+          "playlist_genre": "edm"
+        }
+      ]
+    },
+    {
+      "name": "data_1",
+      "values": [
+        {
+          "average_track_popularity": 48.851987899740706,
+          "average_track_popularity_end": 176.77744297392894,
+          "average_track_popularity_start": 127.92545507418824,
+          "decade": 2010,
+          "playlist_genre": "pop"
+        },
+        {
+          "average_track_popularity": 38.16591928251121,
+          "average_track_popularity_end": 138.279206404251,
+          "average_track_popularity_start": 100.11328712173979,
+          "decade": 2000,
+          "playlist_genre": "pop"
+        },
+        {
+          "average_track_popularity": 47.205882352941174,
+          "average_track_popularity_end": 185.78330677980261,
+          "average_track_popularity_start": 138.57742442686146,
+          "decade": 2020,
+          "playlist_genre": "pop"
+        },
+        {
+          "average_track_popularity": 43.83870967741935,
+          "average_track_popularity_end": 165.03787951519806,
+          "average_track_popularity_start": 121.1991698377787,
+          "decade": 1990,
+          "playlist_genre": "pop"
+        },
+        {
+          "average_track_popularity": 43.3,
+          "average_track_popularity_end": 170.73731563648852,
+          "average_track_popularity_start": 127.43731563648852,
+          "decade": 1980,
+          "playlist_genre": "pop"
+        },
+        {
+          "average_track_popularity": 60.27777777777778,
+          "average_track_popularity_end": 193.10596696187426,
+          "average_track_popularity_start": 132.8281891840965,
+          "decade": 1970,
+          "playlist_genre": "pop"
+        },
+        {
+          "average_track_popularity": 80.0,
+          "average_track_popularity_end": 233.08170212765958,
+          "average_track_popularity_start": 153.08170212765958,
+          "decade": 1960,
+          "playlist_genre": "pop"
+        },
+        {
+          "average_track_popularity": 50.63522012578616,
+          "average_track_popularity_end": 90.0935534591195,
+          "average_track_popularity_start": 39.45833333333334,
+          "decade": 2020,
+          "playlist_genre": "rap"
+        },
+        {
+          "average_track_popularity": 45.22974636788968,
+          "average_track_popularity_end": 81.52276640935477,
+          "average_track_popularity_start": 36.29302004146509,
+          "decade": 2010,
+          "playlist_genre": "rap"
+        },
+        {
+          "average_track_popularity": 33.33748443337485,
+          "average_track_popularity_end": 70.75563038998234,
+          "average_track_popularity_start": 37.418145956607496,
+          "decade": 2000,
+          "playlist_genre": "rap"
+        },
+        {
+          "average_track_popularity": 40.98310291858679,
+          "average_track_popularity_end": 87.18275569636457,
+          "average_track_popularity_start": 46.19965277777778,
+          "decade": 1990,
+          "playlist_genre": "rap"
+        },
+        {
+          "average_track_popularity": 43.3728813559322,
+          "average_track_popularity_end": 90.47487432193455,
+          "average_track_popularity_start": 47.10199296600235,
+          "decade": 1980,
+          "playlist_genre": "rap"
+        },
+        {
+          "average_track_popularity": 39.333333333333336,
+          "average_track_popularity_end": 85.79540229885058,
+          "average_track_popularity_start": 46.46206896551724,
+          "decade": 1970,
+          "playlist_genre": "rap"
+        },
+        {
+          "average_track_popularity": 56.0,
+          "average_track_popularity_end": 105.36170212765958,
+          "average_track_popularity_start": 49.36170212765958,
+          "decade": 1960,
+          "playlist_genre": "rap"
+        },
+        {
+          "average_track_popularity": 47.10199296600234,
+          "average_track_popularity_end": 47.10199296600234,
+          "average_track_popularity_start": 0.0,
+          "decade": 1980,
+          "playlist_genre": "rock"
+        },
+        {
+          "average_track_popularity": 36.2930200414651,
+          "average_track_popularity_end": 36.2930200414651,
+          "average_track_popularity_start": 0.0,
+          "decade": 2010,
+          "playlist_genre": "rock"
+        },
+        {
+          "average_track_popularity": 46.19965277777778,
+          "average_track_popularity_end": 46.19965277777778,
+          "average_track_popularity_start": 0.0,
+          "decade": 1990,
+          "playlist_genre": "rock"
+        },
+        {
+          "average_track_popularity": 37.418145956607496,
+          "average_track_popularity_end": 37.418145956607496,
+          "average_track_popularity_start": 0.0,
+          "decade": 2000,
+          "playlist_genre": "rock"
+        },
+        {
+          "average_track_popularity": 46.46206896551724,
+          "average_track_popularity_end": 46.46206896551724,
+          "average_track_popularity_start": 0.0,
+          "decade": 1970,
+          "playlist_genre": "rock"
+        },
+        {
+          "average_track_popularity": 49.361702127659576,
+          "average_track_popularity_end": 49.361702127659576,
+          "average_track_popularity_start": 0.0,
+          "decade": 1960,
+          "playlist_genre": "rock"
+        },
+        {
+          "average_track_popularity": 39.458333333333336,
+          "average_track_popularity_end": 39.458333333333336,
+          "average_track_popularity_start": 0.0,
+          "decade": 2020,
+          "playlist_genre": "rock"
+        },
+        {
+          "average_track_popularity": 37.0,
+          "average_track_popularity_end": 37.0,
+          "average_track_popularity_start": 0.0,
+          "decade": 1950,
+          "playlist_genre": "rock"
+        },
+        {
+          "average_track_popularity": 49.346666666666664,
+          "average_track_popularity_end": 226.1241096405956,
+          "average_track_popularity_start": 176.77744297392894,
+          "decade": 2010,
+          "playlist_genre": "latin"
+        },
+        {
+          "average_track_popularity": 34.563876651982376,
+          "average_track_popularity_end": 172.84308305623338,
+          "average_track_popularity_start": 138.279206404251,
+          "decade": 2000,
+          "playlist_genre": "latin"
+        },
+        {
+          "average_track_popularity": 39.7515923566879,
+          "average_track_popularity_end": 204.78947187188595,
+          "average_track_popularity_start": 165.03787951519806,
+          "decade": 1990,
+          "playlist_genre": "latin"
+        },
+        {
+          "average_track_popularity": 50.19083969465649,
+          "average_track_popularity_end": 235.9741464744591,
+          "average_track_popularity_start": 185.78330677980261,
+          "decade": 2020,
+          "playlist_genre": "latin"
+        },
+        {
+          "average_track_popularity": 39.892857142857146,
+          "average_track_popularity_end": 210.63017277934566,
+          "average_track_popularity_start": 170.73731563648852,
+          "decade": 1980,
+          "playlist_genre": "latin"
+        },
+        {
+          "average_track_popularity": 63.25,
+          "average_track_popularity_end": 256.3559669618743,
+          "average_track_popularity_start": 193.1059669618743,
+          "decade": 1970,
+          "playlist_genre": "latin"
+        },
+        {
+          "average_track_popularity": 26.0,
+          "average_track_popularity_end": 259.0817021276596,
+          "average_track_popularity_start": 233.08170212765958,
+          "decade": 1960,
+          "playlist_genre": "latin"
+        },
+        {
+          "average_track_popularity": 48.483870967741936,
+          "average_track_popularity_end": 138.57742442686146,
+          "average_track_popularity_start": 90.09355345911952,
+          "decade": 2020,
+          "playlist_genre": "r&b"
+        },
+        {
+          "average_track_popularity": 46.402688664833484,
+          "average_track_popularity_end": 127.92545507418825,
+          "average_track_popularity_start": 81.52276640935477,
+          "decade": 2010,
+          "playlist_genre": "r&b"
+        },
+        {
+          "average_track_popularity": 29.35765673175745,
+          "average_track_popularity_end": 100.1132871217398,
+          "average_track_popularity_start": 70.75563038998234,
+          "decade": 2000,
+          "playlist_genre": "r&b"
+        },
+        {
+          "average_track_popularity": 34.01641414141414,
+          "average_track_popularity_end": 121.1991698377787,
+          "average_track_popularity_start": 87.18275569636455,
+          "decade": 1990,
+          "playlist_genre": "r&b"
+        },
+        {
+          "average_track_popularity": 36.96244131455399,
+          "average_track_popularity_end": 127.43731563648853,
+          "average_track_popularity_start": 90.47487432193455,
+          "decade": 1980,
+          "playlist_genre": "r&b"
+        },
+        {
+          "average_track_popularity": 47.032786885245905,
+          "average_track_popularity_end": 132.8281891840965,
+          "average_track_popularity_start": 85.79540229885058,
+          "decade": 1970,
+          "playlist_genre": "r&b"
+        },
+        {
+          "average_track_popularity": 47.72,
+          "average_track_popularity_end": 153.08170212765958,
+          "average_track_popularity_start": 105.36170212765958,
+          "decade": 1960,
+          "playlist_genre": "r&b"
+        },
+        {
+          "average_track_popularity": 59.0,
+          "average_track_popularity_end": 96.0,
+          "average_track_popularity_start": 37.0,
+          "decade": 1950,
+          "playlist_genre": "r&b"
+        },
+        {
+          "average_track_popularity": 35.051760563380284,
+          "average_track_popularity_end": 261.1758702039759,
+          "average_track_popularity_start": 226.12410964059558,
+          "decade": 2010,
+          "playlist_genre": "edm"
+        },
+        {
+          "average_track_popularity": 40.31521739130435,
+          "average_track_popularity_end": 276.28936386576345,
+          "average_track_popularity_start": 235.9741464744591,
+          "decade": 2020,
+          "playlist_genre": "edm"
+        },
+        {
+          "average_track_popularity": 20.69375,
+          "average_track_popularity_end": 193.53683305623338,
+          "average_track_popularity_start": 172.84308305623338,
+          "decade": 2000,
+          "playlist_genre": "edm"
+        },
+        {
+          "average_track_popularity": 39.3,
+          "average_track_popularity_end": 244.08947187188596,
+          "average_track_popularity_start": 204.78947187188595,
+          "decade": 1990,
+          "playlist_genre": "edm"
+        },
+        {
+          "average_track_popularity": 37.4,
+          "average_track_popularity_end": 248.03017277934566,
+          "average_track_popularity_start": 210.63017277934566,
+          "decade": 1980,
+          "playlist_genre": "edm"
+        },
+        {
+          "average_track_popularity": 24.0,
+          "average_track_popularity_end": 280.3559669618743,
+          "average_track_popularity_start": 256.3559669618743,
+          "decade": 1970,
+          "playlist_genre": "edm"
+        }
+      ]
+    },
+    {
+      "name": "data_1_x_domain_decade_0",
+      "values": [
+        {
+          "decade": 2010
+        },
+        {
+          "decade": 2000
+        },
+        {
+          "decade": 2020
+        },
+        {
+          "decade": 1990
+        },
+        {
+          "decade": 1980
+        },
+        {
+          "decade": 1970
+        },
+        {
+          "decade": 1960
+        },
+        {
+          "decade": 1950
+        }
+      ]
+    },
+    {
+      "name": "data_0_x_domain_decade_1",
+      "values": [
+        {
+          "decade": 2010
+        },
+        {
+          "decade": 2000
+        },
+        {
+          "decade": 2020
+        },
+        {
+          "decade": 1990
+        },
+        {
+          "decade": 1980
+        },
+        {
+          "decade": 1970
+        },
+        {
+          "decade": 1960
+        },
+        {
+          "decade": 1950
+        }
+      ]
+    },
+    {
+      "name": "data_1_color_domain_playlist_genre_0",
+      "values": [
+        {
+          "playlist_genre": "pop"
+        },
+        {
+          "playlist_genre": "rap"
+        },
+        {
+          "playlist_genre": "rock"
+        },
+        {
+          "playlist_genre": "latin"
+        },
+        {
+          "playlist_genre": "r&b"
+        },
+        {
+          "playlist_genre": "edm"
+        }
+      ]
+    },
+    {
+      "name": "data_0_color_domain_playlist_genre_1",
+      "values": [
+        {
+          "playlist_genre": "pop"
+        },
+        {
+          "playlist_genre": "rap"
+        },
+        {
+          "playlist_genre": "rock"
+        },
+        {
+          "playlist_genre": "latin"
+        },
+        {
+          "playlist_genre": "r&b"
+        },
+        {
+          "playlist_genre": "edm"
+        }
+      ]
+    }
+  ],
+  "height": 400,
+  "legends": [
+    {
+      "encode": {
+        "symbols": {
+          "update": {
+            "opacity": {
+              "value": 1
+            }
+          }
+        }
+      },
+      "fill": "color",
+      "symbolType": "square",
+      "title": "playlist_genre"
+    }
+  ],
+  "marks": [
+    {
+      "encode": {
+        "update": {
+          "ariaRoleDescription": {
+            "value": "bar"
+          },
+          "description": {
+            "signal": "\"Decade: \" + (isValid(datum[\"decade\"]) ? datum[\"decade\"] : \"\"+datum[\"decade\"]) + \"; Average Track Popularity: \" + (format(datum[\"average_track_popularity\"], \"\")) + \"; playlist_genre: \" + (isValid(datum[\"playlist_genre\"]) ? datum[\"playlist_genre\"] : \"\"+datum[\"playlist_genre\"])"
+          },
+          "fill": {
+            "field": "playlist_genre",
+            "scale": "color"
+          },
+          "width": {
+            "signal": "max(0.25, bandwidth('x'))"
+          },
+          "x": {
+            "field": "decade",
+            "scale": "x"
+          },
+          "y": {
+            "field": "average_track_popularity_end",
+            "scale": "y"
+          },
+          "y2": {
+            "field": "average_track_popularity_start",
+            "scale": "y"
+          }
+        }
+      },
+      "from": {
+        "data": "data_1"
+      },
+      "interactive": false,
+      "name": "layer_0_marks",
+      "style": [
+        "bar"
+      ],
+      "type": "rect"
+    },
+    {
+      "encode": {
+        "update": {
+          "ariaRoleDescription": {
+            "value": "bar"
+          },
+          "description": {
+            "signal": "\"Decade: \" + (isValid(datum[\"decade\"]) ? datum[\"decade\"] : \"\"+datum[\"decade\"]) + \"; Average Track Popularity: \" + (format(datum[\"average_track_popularity\"], \"\")) + \"; playlist_genre: \" + (isValid(datum[\"playlist_genre\"]) ? datum[\"playlist_genre\"] : \"\"+datum[\"playlist_genre\"]) + \"; Average Popularity: \" + (format(datum[\"average_track_popularity\"], \"\")) + \"; Genre: \" + (isValid(datum[\"playlist_genre\"]) ? datum[\"playlist_genre\"] : \"\"+datum[\"playlist_genre\"])"
+          },
+          "fill": {
+            "field": "playlist_genre",
+            "scale": "color"
+          },
+          "opacity": [
+            {
+              "test": "length(data(\"param_15_store\")) && vlSelectionIdTest(\"param_15_store\", datum)",
+              "value": 1
+            },
+            {
+              "value": 0.1
+            }
+          ],
+          "tooltip": {
+            "signal": "{\"Decade\": isValid(datum[\"decade\"]) ? datum[\"decade\"] : \"\"+datum[\"decade\"], \"Average Popularity\": format(datum[\"average_track_popularity\"], \"\"), \"Genre\": isValid(datum[\"playlist_genre\"]) ? datum[\"playlist_genre\"] : \"\"+datum[\"playlist_genre\"]}"
+          },
+          "width": {
+            "signal": "max(0.25, bandwidth('x'))"
+          },
+          "x": {
+            "field": "decade",
+            "scale": "x"
+          },
+          "y": {
+            "field": "average_track_popularity_end",
+            "scale": "y"
+          },
+          "y2": {
+            "field": "average_track_popularity_start",
+            "scale": "y"
+          }
+        }
+      },
+      "from": {
+        "data": "data_0"
+      },
+      "interactive": true,
+      "name": "view_2_marks",
+      "style": [
+        "bar"
+      ],
+      "type": "rect"
+    },
+    {
+      "encode": {
+        "update": {
+          "fill": {
+            "value": "transparent"
+          },
+          "isVoronoi": {
+            "value": true
+          },
+          "stroke": {
+            "value": "transparent"
+          },
+          "strokeWidth": {
+            "value": 0.35
+          },
+          "tooltip": {
+            "signal": "{\"Decade\": isValid(datum.datum[\"decade\"]) ? datum.datum[\"decade\"] : \"\"+datum.datum[\"decade\"], \"Average Popularity\": format(datum.datum[\"average_track_popularity\"], \"\"), \"Genre\": isValid(datum.datum[\"playlist_genre\"]) ? datum.datum[\"playlist_genre\"] : \"\"+datum.datum[\"playlist_genre\"]}"
+          }
+        }
+      },
+      "from": {
+        "data": "view_2_marks"
+      },
+      "interactive": true,
+      "name": "view_2_voronoi",
+      "transform": [
+        {
+          "size": [
+            {
+              "signal": "width"
+            },
+            {
+              "signal": "height"
+            }
+          ],
+          "type": "voronoi",
+          "x": {
+            "expr": "datum.datum.x || 0"
+          },
+          "y": {
+            "expr": "datum.datum.y || 0"
+          }
+        }
+      ],
+      "type": "path"
+    }
+  ],
+  "padding": 5,
+  "scales": [
+    {
+      "domain": {
+        "fields": [
+          {
+            "data": "data_1_x_domain_decade_0",
+            "field": "decade"
+          },
+          {
+            "data": "data_0_x_domain_decade_1",
+            "field": "decade"
+          }
+        ],
+        "sort": true
+      },
+      "name": "x",
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05,
+      "range": [
+        0,
+        {
+          "signal": "width"
+        }
+      ],
+      "type": "band"
+    },
+    {
+      "domain": {
+        "fields": [
+          {
+            "data": "data_1",
+            "field": "average_track_popularity_start"
+          },
+          {
+            "data": "data_1",
+            "field": "average_track_popularity_end"
+          },
+          {
+            "data": "data_0",
+            "field": "average_track_popularity_start"
+          },
+          {
+            "data": "data_0",
+            "field": "average_track_popularity_end"
+          }
+        ]
+      },
+      "name": "y",
+      "nice": true,
+      "range": [
+        {
+          "signal": "height"
+        },
+        0
+      ],
+      "type": "linear",
+      "zero": true
+    },
+    {
+      "domain": {
+        "fields": [
+          {
+            "data": "data_1_color_domain_playlist_genre_0",
+            "field": "playlist_genre"
+          },
+          {
+            "data": "data_0_color_domain_playlist_genre_1",
+            "field": "playlist_genre"
+          }
+        ],
+        "sort": true
+      },
+      "name": "color",
+      "range": "category",
+      "type": "ordinal"
+    }
+  ],
+  "signals": [
+    {
+      "name": "unit",
+      "on": [
+        {
+          "events": "mousemove",
+          "update": "isTuple(group()) ? group() : unit"
+        }
+      ],
+      "value": {}
+    },
+    {
+      "name": "param_15",
+      "update": "vlSelectionResolve(\"param_15_store\", \"union\", true, true)"
+    },
+    {
+      "name": "param_15_tuple",
+      "on": [
+        {
+          "events": [
+            {
+              "markname": "view_2_voronoi",
+              "source": "scope",
+              "type": "mouseover"
+            }
+          ],
+          "force": true,
+          "update": "datum && item().mark.marktype !== 'group' && indexof(item().mark.role, 'legend') < 0 ? {unit: \"view_2\", _vgsid_: (item().isVoronoi ? datum.datum : datum)[\"_vgsid_\"]} : null"
+        },
+        {
+          "events": [
+            {
+              "source": "view",
+              "type": "dblclick"
+            }
+          ],
+          "update": "null"
+        }
+      ]
+    },
+    {
+      "name": "param_15_toggle",
+      "on": [
+        {
+          "events": [
+            {
+              "markname": "view_2_voronoi",
+              "source": "scope",
+              "type": "mouseover"
+            }
+          ],
+          "update": "event.shiftKey"
+        },
+        {
+          "events": [
+            {
+              "source": "view",
+              "type": "dblclick"
+            }
+          ],
+          "update": "false"
+        }
+      ],
+      "value": false
+    },
+    {
+      "name": "param_15_modify",
+      "on": [
+        {
+          "events": {
+            "signal": "param_15_tuple"
+          },
+          "update": "modify(\"param_15_store\", param_15_toggle ? null : param_15_tuple, param_15_toggle ? null : true, param_15_toggle ? param_15_tuple : null)"
+        }
+      ]
+    }
+  ],
+  "style": "cell",
+  "width": 600
+}
